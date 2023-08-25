@@ -1,7 +1,7 @@
 # PIWithCSharp
 
 # PI Setup SSH key access and Samba for file transfer
-
+cat ~/.ssh/id_rsa.pub | ssh pi@<rpi_address> "mkdir -p ~/.ssh && cat >>  ~/.ssh/authorized_keys"
 Source : https://github.com/ATGNI/RaspberryPi/tree/main
 Youtube: https://www.youtube.com/watch?v=TS4DNGByIoc
 
